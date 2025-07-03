@@ -15,6 +15,6 @@ print(f"Total value: {(total)}")
 
 #Won/lost message added
 if total > 7:
-    print("You win")
+    print( name + " win")
 else:
-    print("You lost")
+    print( name + " lost")
