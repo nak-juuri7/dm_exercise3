@@ -8,3 +8,9 @@ print("Rolling dice...")
 print(f"Die 1: {(roll_dice1)}")
 print(f"Die 2: {(roll_dice2)}")
 print(f"Total value: {(total)}")
+
+#Won/lost message added
+if total > 7:
+    print("You win")
+else:
+    print("You lost")
